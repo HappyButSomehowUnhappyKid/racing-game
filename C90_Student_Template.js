@@ -59,7 +59,7 @@ function uploadcar2() {
 }
 
 window.addEventListener("keydown", my_keydown);
-function car1_up(){
+function car1_up() {
 	if(car1Y > 0 && car1Y < canvas.height){
 	car1Y -= 3
 	uploadbackground()
@@ -67,7 +67,7 @@ function car1_up(){
 	gamestatusmq()
 	}
 }
-function car1_down(){
+function car1_down() {
 	if(car1Y > 0 && car1Y < canvas.height){
 	car1Y += 3
 	uploadbackground()
@@ -75,7 +75,7 @@ function car1_down(){
 	gamestatusmq()
 	}
 }
-function car1_left(){
+function car1_left() {
 	if(car1X > 0 && car1X < canvas.width){
 	car1X -= 3
 	uploadbackground()
@@ -83,7 +83,7 @@ function car1_left(){
 	gamestatusmq()
 	}
 }
-function car1_right(){
+function car1_right() {
 	if(car1X > 0 && car1X < canvas.width){
 	car1X += 3
 	console.log("x = ".concat(car1X))
